@@ -13,7 +13,7 @@ Built for enterprise SOCs: Mirrors CrowdStrike/Expel triage workflows with live 
 ![Alert Spike During ART Run](screenshots/01_eventid.png)
 ![Malicious Commands](screenshots/02_powershell_commands.png)
 ![ART Attack Execution](screenshots/03_art_execution.png)
-![MITRE Tactics Breakdown](screenshots/04_mitre-ttps.png)
+![MITRE Tactics Breakdown](screenshots/04_mitre_ttps.png)
 
 ## Import My Kibana Dashboard
 1. Download: [malicious-executions-dashboard.ndjson](kibana/malicious-executions-dashboard.ndjson)
