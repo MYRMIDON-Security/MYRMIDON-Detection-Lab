@@ -12,6 +12,7 @@ For a live demo, DM me on LinkedIn and we'll get you set up with credentials to 
 3. **Detect & Visualize**: Kibana dashboard auto-updates with alerts, timelines, and MITRE ATT&CK mapping.
 
 ### Screenshots
+
 ![Lab Flow Topology](screenshots/01_lab_flow_topology.png)
 
 ![Atomic Red Team Firing](screenshots/02_art_execution_T1059_003.png)
