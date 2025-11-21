@@ -25,17 +25,15 @@ Built for enterprise SOCs: Mirrors CrowdStrike/Expel triage workflows with live 
 ## Import My Kibana Dashboard
 1. Download: [malicious-executions-dashboard.ndjson](kibana/processes_and_executions_dashboard.ndjson)
 2. In Kibana: Stack Management → Saved Objects → Import → Upload → Check "Include related objects" → Import.
-3. Assumes index pattern: `logs-*` (tweak if needed).
 
 ## Secure Auth Setup (ES 9.0.1)
 - Service token: `elasticsearch-service-tokens.bat create elastic/kibana kibana-token`.
 - kibana.yml: `elasticsearch.serviceAccountToken: [token]` — No logins, direct to enhanced dashboard (multi-event lines, parent-process heat).
 - Green cluster: Replicas=0 + single-node (`discovery.type: single-node`) for 100% health.
-- Global: Cloudflare Tunnel (demo.myrmidon-security.dev) — Zero ports, HTTPS, WAF; view events from anywhere.
-- Live Demo (LAN: 192.168.1.75): http://192.168.1.75:5601 — Token auto-auth; run ART, watch 4688 spikes vs baseline.
+- Web Accessible: Cloudflare Tunnel (demo.myrmidon-security.dev) — Zero ports, HTTPS, WAF; view events from anywhere.
+- Live Demo: Available upon request, please DM me on LinkedIn. We'll set up credentials so you can watch log spikes in real time as attacks are run.
 
 ## Tech Stack
-- **Atomic Red Team**: MITRE ATT&CK sims.
-- **ELK Stack**: ES 9.0.1 (green single-node), Kibana (token auth, enhanced dashboard: Timeline spikes, MITRE pie, process table, anomaly heat), Winlogbeat for Windows Security logs.
-- **Detections**: (COMING SOON) 423 Sigma rules incoming (top Windows process_creation for execution tactics — auto-flag T1059 payloads).
-- **Playbooks**: (COMING SOON) IR guides for top alerts (T1059.003: Triage to remediation in 20 mins, with SOAR scale).
+- **Atomic Red Team**: Attack simulations based on the MITRE ATT&CK framework, ability to execute specific TTPs
+- **ELK Stack**: ES 9.0.1 (green single-node), Kibana (token auth, enhanced dashboard: Timeline spikes, process table, etc), Sysmon for log enrichment, Winlogbeat for Windows Security log shipment.
+- **Sigma Rules**: Query conversions for easy detection of TTPs in log search.
