@@ -4,6 +4,8 @@ Production-grade threat simulation and detection pipeline using simulated attack
 
 Built for enterprise SOCs: Mirrors CrowdStrike/Expel triage workflows with live simulation of attacks from Red Canary's Atomic Red Team (ART) and an independent Kali attack box.
 
+For a live demo, DM me on LinkedIn and we'll get you set up with credentials to access and see log generation in real time.
+
 ## Quick Demo Flow
 1. **Execute Attack**: On Windows VM "Invoke-AtomicTest T(Insert MITRE TTP).
 2. **Ingest Logs**: Beats to Logstash → Elasticsearch indexing.
