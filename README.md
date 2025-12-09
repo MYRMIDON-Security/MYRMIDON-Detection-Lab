@@ -10,6 +10,7 @@ For a live demo, DM me on LinkedIn and we'll get you set up with credentials to 
 1. **Execute Attack**: On Windows VM "Invoke-AtomicTest T(Insert MITRE TTP).
 2. **Ingest Logs**: Beats to Logstash → Elasticsearch indexing.
 3. **Detect & Visualize**: Kibana dashboard auto-updates with alerts, timelines, and MITRE ATT&CK mapping.
+4. **Alerting**: Elastalert2 provides alerts on malicious or suspicious activity.
 
 ## Free Real-Time Alerting (ElastAlert2) — No Elastic Platinum Needed
 
