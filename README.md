@@ -2,7 +2,7 @@
 
 Production-grade threat simulation and detection pipeline using simulated attacks ingested into ELK Stack. Demonstrates end-to-end: Attack execution → Sigma-inspired detection → Kibana visualization.
 
-Built for enterprise SOCs: Mirrors CrowdStrike/Expel triage workflows with live simulation of attacks from Red Canary's Atomic Red Team (ART) and an independent Kali attack box.
+Built for enterprise SOCs: Mirrors SIEM triage workflows with live simulation of attacks from Red Canary's Atomic Red Team (ART) and an independent Kali attack box.
 
 For a live demo, DM me on LinkedIn and we'll get you set up with credentials to access and see log generation in real time.
 
