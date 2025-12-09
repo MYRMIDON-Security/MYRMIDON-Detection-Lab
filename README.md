@@ -12,7 +12,7 @@ For a live demo, DM me on LinkedIn and we'll get you set up with credentials to 
 3. **Detect & Visualize**: Kibana dashboard auto-updates with alerts, timelines, and MITRE ATT&CK mapping.
 4. **Alerting**: Elastalert2 provides alerts on malicious or suspicious activity.
 
-## Free Real-Time Alerting (ElastAlert2) — No Elastic Platinum Needed
+## Free Real-Time Alerting (ElastAlert2) — No Elastic Paid License Needed
 
 I wanted to do alerts, but I ran into the paywall on Elastic. So, I got Elastalert2 up and running.
 
@@ -37,7 +37,7 @@ Now I have Sigma rules written and firing. Next project is to get alerts sent to
   ![ELK Stack Log Search Proof](screenshots/16_ELK_proof.png)
   
 
-### Screenshots
+### ELK Pipeline Setup
 
 ![Lab Flow Topology](screenshots/01_lab_flow_topology.png)
 
