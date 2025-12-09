@@ -24,7 +24,7 @@ Now I have Sigma rules written and firing. Next project is to get alerts sent to
 - **Current live rule**: PowerShell WebClient downloads (`DownloadFile`/`DownloadString`)
 - **Proof**:  
   ![Elastalert2 caught this in <60 seconds:  
-  ![Starting Elastalert2](screenshots/12_elastalert_start.png)
+  ![Starting Elastalert2](screenshots/12_elastalert2_start.png)
   ![First Sigma Rule Written](screenshots/13_first_sigma_rule.png)
   ![Evil.com/test.txt PowerShell CLI](screenshots/14_evil_test_powershell_cli.png)
   ![Elastalert2 Firing Alert](screenshots/15_alerting_malicious_cli.png)
