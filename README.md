@@ -11,6 +11,26 @@ For a live demo, DM me on LinkedIn and we'll get you set up with credentials to 
 2. **Ingest Logs**: Beats to Logstash → Elasticsearch indexing.
 3. **Detect & Visualize**: Kibana dashboard auto-updates with alerts, timelines, and MITRE ATT&CK mapping.
 
+## Free Real-Time Alerting (ElastAlert2) — No Elastic Platinum Needed
+
+I wanted to do alerts, but I ran into the paywall on Elastic. So, I got Elastalert2 up and running.
+
+Now I have Sigma rules written and firing. Next project is to get alerts sent to email, Discord, etc.
+
+- **Engine**: ElastAlert2 (open-source, runs on Windows)
+- **Backend**: Elasticsearch 9.0.1 (Basic license)
+- **Rules**: Sigma → Lucene KQL (Adding more rules every day)
+- **Auto-start**: Windows Task Scheduler (Avoid manual start of Ealstalert2 service)
+- **Current live rule**: PowerShell WebClient downloads (`DownloadFile`/`DownloadString`)
+- **Proof**:  
+  ![Elastalert2 caught this in <60 seconds:  
+  ![Starting Elastalert2](screenshots/12_elastalert_start.png)
+  ![First Sigma Rule Written](screenshots/13_first_sigma_rule.png)
+  ![Evil.com/test.txt PowerShell CLI](screenshots/14_evil_test_powershell_cli.png)
+  ![Elastalert2 Firing Alert](screenshots/15_alerting_malicious_cli.png)
+  ![ELK Stack Log Search Proof](screenshots/16_ELK_proof.png)
+  
+
 ### Screenshots
 
 ![Lab Flow Topology](screenshots/01_lab_flow_topology.png)
