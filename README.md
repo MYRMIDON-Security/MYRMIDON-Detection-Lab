@@ -34,9 +34,14 @@ Now I have Sigma rules written and firing. Alerts are firing to my private Disco
   ![Elastalert2 Firing Alert](screenshots/15_alerting_malicious_cli.png)
   
   ![ELK Stack Log Search Proof](screenshots/16_ELK_proof.png)
+  
   ![Updated Config File with Webhook](screenshots/17_config_webhooks.png)
+  
   ![Created Webhook in Discord](screenshots/18_dc_webhook.png)
+  
   ![Sigma Alert Firing to Discord](screenshots/19_dc_sigma_alert.png)
+
+  
   
 
 ### ELK Pipeline Setup
