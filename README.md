@@ -16,7 +16,7 @@ For a live demo, DM me on LinkedIn and we'll get you set up with credentials to 
 
 I wanted to do alerts, but I ran into the paywall on Elastic. So, I got Elastalert2 up and running.
 
-Now I have Sigma rules written and firing. Next project is to get alerts sent to email, Discord, etc.
+Now I have Sigma rules written and firing. Alerts are firing to my private Discord server via webhook now.
 
 - **Engine**: ElastAlert2 (open-source, runs on Windows)
 - **Backend**: Elasticsearch 9.0.1 (Basic license)
@@ -34,6 +34,9 @@ Now I have Sigma rules written and firing. Next project is to get alerts sent to
   ![Elastalert2 Firing Alert](screenshots/15_alerting_malicious_cli.png)
   
   ![ELK Stack Log Search Proof](screenshots/16_ELK_proof.png)
+  ![Updated Config File with Webhook](screenshots/17_config_webhooks.png)
+  ![Created Webhook in Discord](screenshots/18_dc_webhook.png)
+  ![Sigma Alert Firing to Discord](screenshots/19_dc_sigma_alert.png)
   
 
 ### ELK Pipeline Setup
