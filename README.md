@@ -23,8 +23,7 @@ Now I have Sigma rules written and firing. Next project is to get alerts sent to
 - **Rules**: Sigma → Lucene KQL (Adding more rules every day)
 - **Auto-start**: Windows Task Scheduler (Avoid manual start of Ealstalert2 service)
 - **Current live rule**: PowerShell WebClient downloads (`DownloadFile`/`DownloadString`)
-- **Proof**:  
-  ![Elastalert2 caught this in <60 seconds:
+- **Proof**: Elastalert2 caught this in <60 seconds:
   
   ![Starting Elastalert2](screenshots/12_elastalert2_start.png)
   
