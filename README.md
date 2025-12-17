@@ -58,15 +58,21 @@ Now I have Sigma rules written and firing. Alerts are firing to my private Disco
 
 ![Raw Log Process Creation Details](screenshots/06_raw_log_process_creation.png)
 
+### Dashboard Visualizations
+
 ![EventID Dashboard—Line Chart](screenshots/07_eventid_dashboard.png)
 
 ![New and Parent Process Dashboard—Heatmap](screenshots/08_process_heatmap.png)
 
 ![CLI Executions Dashboard—Table](screenshots/09_cli_dashboard.png)
 
+
+### Web Accessible Login Portal (with provisioned credentials)
+
 ![Live Web Demo Login Portal](screenshots/10_web_demo_login_portal.png)
 
 ![Web Demo Successful Login](screenshots/11_web_demo_login_success.png)
+
 
 ## Import My Kibana Dashboard
 1. Download: [malicious-executions-dashboard.ndjson](kibana/processes_and_executions_dashboard.ndjson)
